@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	background-color: #ffdeeb;
+	height: 100vh;
+}
+.parnet-container {
+	width: 80%;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 5rem;
+	color: #555;
+	font-family: sans-serif;
+}
+
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	margin-bottom: 2rem;
+	/* background-color: rgba(66, 66, 66, 0.39); */
+	background-color: #faa2c1;
+	border-left: 0.1rem solid #1864ab;
+	border-bottom: 0.1rem solid #1864ab;
+	border-right: 0.1rem solid #1864ab;
+	border-bottom-left-radius: 1.2rem;
+	border-bottom-right-radius: 1.2rem;
+}
+.navItems {
+	width: 20rem;
+	display: flex;
+	justify-content: space-between;
+}
+.wet-emojy {
+	color: #d0ebff;
+}
+.logotext,
+.navlist:link,
+.navlist:visited {
+	font-size: 2rem;
+	color: #1864ab;
+}
+a:link {
+	text-decoration: none;
+}
+
+.footer-line {
+	padding: 0.4rem;
+	width: 100%;
+	background-color: #228be6;
+	position: absolute;
+	bottom: 0;
+}
+.que-main {
+	width: 50rem;
+	margin: 20rem auto;
+	text-align: center;
+}
+.que-img {
+	font-size: 5rem;
+}
+.que-text {
+	font-size: 5rem;
+}
+.footer-line::after {
+	content: "Weather";
+	font-size: 2rem;
+	width: 6.8rem;
+	background-color: yellow;
+	padding: 0.4rem;
+	bottom: 15rem;
+	transform: rotate(-90deg);
+	right: -2.25rem;
+	position: absolute;
+	border: 0.3rem solid #1864ab;
+}
+
+.weather-details {
+	width: 70%;
+	margin: 10rem auto;
+}
+.wethelper {
+	margin-left: 20rem;
+}
+.weather-img {
+	width: 10rem;
+	border-radius: 50%;
+	margin-bottom: 1.2rem;
+	display: block;
+}
+.wethcity {
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+.weatherDesc {
+	display: inline-block;
+	font-size: 2rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #1864ab;
+	margin-left: 1.2rem;
+}
+.tempreture,
+.windDir {
+	font-size: 2rem;
+	font-family: sans-serif;
+	color: #555;
+	margin-bottom: 1.2rem;
+}
+
+.wethform {
+	width: 100%;
+	margin: 10rem auto;
+}
+.innerwethform {
+	width: 30rem;
+	margin: 0 auto;
+}
+.entercity,
+.inputcity {
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+	font-family: sans-serif;
+	color: #555;
+}
+.inputcity {
+	width: 30rem;
+	border-radius: 1rem;
+	height: 4rem;
+	border-left: 3px solid #1864ab;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	padding: 0.2rem 0.3rem;
+	font-size: 1.5rem;
+	color: #1864ab;
+}
+.btn-weth {
+	width: 30rem;
+	padding: 0.2rem 0.6rem;
+	font-size: 1.5rem;
+	border-radius: 1rem;
+	border: 0;
+	height: 3rem;
+	background-color: #339af0;
+}

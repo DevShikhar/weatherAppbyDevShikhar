@@ -1,0 +1,27 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Weather</title>
+	</head>
+	<body>
+		<div class="parnet-container">
+			{{>header}}
+			<section>
+				<h1 class="errorsection">{{emsg}}</h1>
+			</section>
+			<main class="weather-details">
+				<img src="{{wethimg}}" alt="wether-img" class="weather-img wethelper"/>
+				<h1 class="wethelper wethcity">{{city}}</h1>
+				<p class="weatherDesc">{{weatherDesc}}</p>
+				<h2 class="tempreture wethelper">Tempreture is {{tempreture}}°C</h2>
+				<h3 class="windDir wethelper">Wind towards {{windDirection}}</h3>
+			</main>
+		</div>
+			{{>footer}}
+
+			<script src="/helper.js"></script>
+	</body>
+</html>
