@@ -5,7 +5,7 @@ import { dirname } from "path";
 import hbs from "hbs";
 import axios from "axios";
 const app = express();
-
+const port = process.env.PORT || 3000;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
@@ -102,8 +102,8 @@ app.get("*", (req, res) => {
 });
 
 /************************************************************* */
-app.listen(3000, () => {
-	console.log("Server is up on port 3000.Enjoy");
+app.listen(port, () => {
+	console.log("Server is up. Enjoy");
 });
 /************************************************************* */
 
